@@ -8,7 +8,7 @@ readonly Project_Name="GRUB2::THEMES"
 readonly MAX_DELAY=20                               # max delay for user to enter root password
 tui_root_login=
 
-THEME_DIR="/usr/share/grub/themes"
+THEME_DIR="/boot/grub2/themes"
 REO_DIR="$(cd $(dirname $0) && pwd)"
 
 THEME_VARIANTS=('tela' 'vimix' 'stylish' 'whitesur')
